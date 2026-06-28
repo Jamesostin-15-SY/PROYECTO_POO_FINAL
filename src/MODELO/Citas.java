@@ -11,6 +11,7 @@ public class Citas {
     
     
     public Citas (){}
+    
     public int getId_cita() { return id_cita; }
     public void setId_cita(int id_cita) { this.id_cita = id_cita; }
     public int getFk_id_mascota() { return fk_id_mascota; }

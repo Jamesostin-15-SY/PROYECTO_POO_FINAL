@@ -1,7 +1,7 @@
 package DAO;
 
 import java.sql.*;
-import Procesos.Mensajes;
+import PROCESOS.Mensajes;
 
 public class Conexion implements Parametros {
 

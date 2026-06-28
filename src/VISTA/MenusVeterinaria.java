@@ -66,7 +66,7 @@ public class MenusVeterinaria extends javax.swing.JFrame {
 
         MenuClientes.setText("Clientes");
 
-        jMenuItem1.setText("Clientes");
+        jMenuItem1.setText("Registrar Clientes");
         MenuClientes.add(jMenuItem1);
 
         jMenuBar1.add(MenuClientes);
@@ -91,7 +91,7 @@ public class MenusVeterinaria extends javax.swing.JFrame {
 
         jMenuBar1.add(MenuAgendas);
 
-        Modificar.setText("Modificar");
+        Modificar.setText("Procesos");
 
         itemEstado.setText("Estado De La Cita");
         Modificar.add(itemEstado);

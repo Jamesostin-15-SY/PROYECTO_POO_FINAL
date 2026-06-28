@@ -1,7 +1,19 @@
 package MODELO;
 
 public class EstadosCita {
-    int id_estado;
-    String nombre_estado;
+    private int id_estado;
+    private String nombre_estado;
+
+     // constructor
+    public EstadosCita() { }
+
+    public int getId_estado() {return id_estado; }
+    public void setId_estado(int id_estado) {this.id_estado = id_estado;  }
+    public String getNombre_estado() {return nombre_estado;   }
+    public void setNombre_estado(String nombre_estado) {this.nombre_estado = nombre_estado; }
+    
+    
+    
+    
     
 }

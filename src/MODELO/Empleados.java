@@ -9,6 +9,7 @@ public class Empleados {
     String telefono;
     int fk_id_puesto;
     int fk_id_turno;
+    //se la viven//
     
     
 }

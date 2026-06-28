@@ -153,11 +153,11 @@ public class MenusVeterinaria extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JMenu MenuAgendas;
-    private javax.swing.JMenu MenuCitas;
-    private javax.swing.JMenu MenuClientes;
-    private javax.swing.JMenu MenuEmpleados;
-    private javax.swing.JMenu Modificar;
+    public javax.swing.JMenu MenuAgendas;
+    public javax.swing.JMenu MenuCitas;
+    public javax.swing.JMenu MenuClientes;
+    public javax.swing.JMenu MenuEmpleados;
+    public javax.swing.JMenu Modificar;
     private javax.swing.JMenuItem itemAgenda;
     private javax.swing.JMenuItem itemAgregar;
     private javax.swing.JMenuItem itemCancelar;

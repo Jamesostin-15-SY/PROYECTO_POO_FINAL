@@ -1,15 +1,16 @@
 package PRINCIPAL;
 import VISTA.*;
-import CONTROLADOR.*;
+import CONTROLADOR.ControladorLogin;
+
 public class Main {
     public static void main(String[] args) {
-        frmLogin fl = new frmLogin();
+        // 1. Crear la vista
+        frmLogin vista = new frmLogin();
         
-        // Inicializamos el controlador pasándole la vista
-        ControlLogin control = new ControlLogin(fl);
+        // 2. Crear el controlador asignándole la vista
+        ControladorLogin loginControlador = new ControladorLogin(vista);
         
-        fl.setTitle("VETCARE S.A.C");
-        fl.setLocationRelativeTo(null); // Centra el JFrame en la pantalla
-        fl.setVisible(true);
+        // 3. Lanzar la aplicación
+        loginControlador.iniciar();
     }
 }

@@ -32,7 +32,8 @@ public class frmLogin extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
         txtUsuario = new javax.swing.JTextField();
         jpfContrasenia = new javax.swing.JPasswordField();
-        btnIniciar = new javax.swing.JButton();
+        btnIngresar = new javax.swing.JButton();
+        btnSalir = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -58,11 +59,14 @@ public class frmLogin extends javax.swing.JFrame {
         jpfContrasenia.addActionListener(this::jpfContraseniaActionPerformed);
         jPanel1.add(jpfContrasenia, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 180, 180, 30));
 
-        btnIniciar.setBackground(new java.awt.Color(0, 51, 51));
-        btnIniciar.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        btnIniciar.setForeground(new java.awt.Color(255, 255, 255));
-        btnIniciar.setText("INICIAR SESIÓN");
-        jPanel1.add(btnIniciar, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 230, 180, 41));
+        btnIngresar.setBackground(new java.awt.Color(0, 51, 51));
+        btnIngresar.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        btnIngresar.setForeground(new java.awt.Color(255, 255, 255));
+        btnIngresar.setText("INGRESAR");
+        jPanel1.add(btnIngresar, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 230, 180, 41));
+
+        btnSalir.setText("salir");
+        jPanel1.add(btnSalir, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 230, 170, 40));
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 500, 320));
 
@@ -99,7 +103,8 @@ public class frmLogin extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    public javax.swing.JButton btnIniciar;
+    public javax.swing.JButton btnIngresar;
+    public javax.swing.JButton btnSalir;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;

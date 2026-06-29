@@ -73,12 +73,12 @@ public class frmCancelarCita extends javax.swing.JInternalFrame {
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnCancelarCita;
-    private javax.swing.JComboBox<String> cbxEstado;
+    public javax.swing.JButton btnCancelarCita;
+    public javax.swing.JComboBox<String> cbxEstado;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JPanel pnlCancelarCita;
-    private javax.swing.JTextField txtIdCita;
+    public javax.swing.JTextField txtIdCita;
     // End of variables declaration//GEN-END:variables
 }

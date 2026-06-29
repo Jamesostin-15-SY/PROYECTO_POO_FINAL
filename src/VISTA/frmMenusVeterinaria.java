@@ -8,14 +8,14 @@ package VISTA;
  *
  * @author James
  */
-public class MenusVeterinaria extends javax.swing.JFrame {
+public class frmMenusVeterinaria extends javax.swing.JFrame {
     
-    private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(MenusVeterinaria.class.getName());
+    private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(frmMenusVeterinaria.class.getName());
 
     /**
      * Creates new form MenusVeterinaria
      */
-    public MenusVeterinaria() {
+    public frmMenusVeterinaria() {
         initComponents();
     }
 
@@ -145,7 +145,7 @@ public class MenusVeterinaria extends javax.swing.JFrame {
         //</editor-fold>
 
         /* Create and display the form */
-        java.awt.EventQueue.invokeLater(() -> new MenusVeterinaria().setVisible(true));
+        java.awt.EventQueue.invokeLater(() -> new frmMenusVeterinaria().setVisible(true));
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

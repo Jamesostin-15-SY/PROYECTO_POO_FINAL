@@ -8,12 +8,12 @@ package VISTA;
  *
  * @author user
  */
-public class Modificar extends javax.swing.JInternalFrame {
+public class frmModificar extends javax.swing.JInternalFrame {
 
     /**
      * Creates new form Modificar
      */
-    public Modificar() {
+    public frmModificar() {
         initComponents();
     }
 

@@ -1,6 +1,7 @@
 package MODELO;
 import java.time.LocalDateTime;
 public class Citas {
+    //Atributos//
     private int id_cita;
     private int fk_id_mascota;
     private String dni_empleado;
@@ -8,7 +9,12 @@ public class Citas {
     private int fk_id_servicio;
     private int fk_id_estado;
     private String motivo_cita;
-    
+    String nombreMascotaAux;
+    String nombreVeterinarioAux;
+    String nombreServicioAux;
+    String nombreEstadoAux;
+    LocalDateTime fechaHora;
+    String motivoCita;
     
     public Citas (){}
     

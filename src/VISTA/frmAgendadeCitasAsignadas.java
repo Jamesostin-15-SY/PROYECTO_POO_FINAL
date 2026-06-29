@@ -51,7 +51,7 @@ public class frmAgendadeCitasAsignadas extends javax.swing.JInternalFrame {
 
         pnlCitasAsignadas.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 860, 490));
 
-        getContentPane().add(pnlCitasAsignadas, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 890, 530));
+        getContentPane().add(pnlCitasAsignadas, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 900, 530));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -60,6 +60,6 @@ public class frmAgendadeCitasAsignadas extends javax.swing.JInternalFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JPanel pnlCitasAsignadas;
-    private javax.swing.JTable tblAgendaDeCitas;
+    public javax.swing.JTable tblAgendaDeCitas;
     // End of variables declaration//GEN-END:variables
 }

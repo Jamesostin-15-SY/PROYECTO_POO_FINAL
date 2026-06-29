@@ -97,13 +97,13 @@ public class AgregarEmpleado extends javax.swing.JInternalFrame {
         btnRegistrarEmpleado.setBackground(new java.awt.Color(204, 204, 204));
         btnRegistrarEmpleado.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         btnRegistrarEmpleado.setText("Registrar empleado");
-        pnlContrato.add(btnRegistrarEmpleado, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 370, 230, 70));
+        pnlContrato.add(btnRegistrarEmpleado, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 370, 230, 70));
 
         btnAgregarCredencial.setBackground(new java.awt.Color(204, 204, 204));
         btnAgregarCredencial.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         btnAgregarCredencial.setText("Agregar credencial");
         btnAgregarCredencial.setEnabled(false);
-        pnlContrato.add(btnAgregarCredencial, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 370, 230, 70));
+        pnlContrato.add(btnAgregarCredencial, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 370, 230, 70));
 
         getContentPane().add(pnlContrato, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 690, 520));
 

@@ -29,13 +29,13 @@ public class RegistrarClientes extends javax.swing.JInternalFrame {
         pnlRegistrodeClientes = new javax.swing.JPanel();
         btnRegistrarCliente = new javax.swing.JButton();
         btnAgregarMascota = new javax.swing.JButton();
-        txtNombre = new javax.swing.JTextField();
+        txtNombreClie = new javax.swing.JTextField();
         jLabel2 = new javax.swing.JLabel();
-        txtTelefono = new javax.swing.JTextField();
+        txtTelefonoClie = new javax.swing.JTextField();
         jLabel4 = new javax.swing.JLabel();
-        txtDni = new javax.swing.JTextField();
+        txtDniClie = new javax.swing.JTextField();
         jLabel1 = new javax.swing.JLabel();
-        txtDireccion = new javax.swing.JTextField();
+        txtDireccionClie = new javax.swing.JTextField();
         jLabel3 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
 
@@ -56,41 +56,41 @@ public class RegistrarClientes extends javax.swing.JInternalFrame {
         btnAgregarMascota.setText("Agregar Mascota");
         btnAgregarMascota.setEnabled(false);
         pnlRegistrodeClientes.add(btnAgregarMascota, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 220, 220, 50));
-        pnlRegistrodeClientes.add(txtNombre, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 160, 240, 40));
+        pnlRegistrodeClientes.add(txtNombreClie, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 160, 240, 40));
 
         jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel2.setText("Nombre del Cliente");
         pnlRegistrodeClientes.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 140, 140, -1));
-        pnlRegistrodeClientes.add(txtTelefono, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 160, 240, 40));
+        pnlRegistrodeClientes.add(txtTelefonoClie, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 160, 240, 40));
 
         jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel4.setText("Teléfono del Cliente");
         pnlRegistrodeClientes.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 140, -1, 20));
 
-        txtDni.addActionListener(this::txtDniActionPerformed);
-        pnlRegistrodeClientes.add(txtDni, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 90, 240, 40));
+        txtDniClie.addActionListener(this::txtDniClieActionPerformed);
+        pnlRegistrodeClientes.add(txtDniClie, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 90, 240, 40));
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel1.setText("DNI del Cliente");
         pnlRegistrodeClientes.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 70, -1, -1));
-        pnlRegistrodeClientes.add(txtDireccion, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 90, 240, 40));
+        pnlRegistrodeClientes.add(txtDireccionClie, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 90, 240, 40));
 
         jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel3.setText("Dirección del Cliente");
         pnlRegistrodeClientes.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 70, -1, 20));
 
         jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabel5.setText("Registros");
-        pnlRegistrodeClientes.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 20, -1, -1));
+        jLabel5.setText("Registrar Clientes");
+        pnlRegistrodeClientes.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 20, -1, -1));
 
         getContentPane().add(pnlRegistrodeClientes, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 610, 300));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void txtDniActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtDniActionPerformed
+    private void txtDniClieActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtDniClieActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_txtDniActionPerformed
+    }//GEN-LAST:event_txtDniClieActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
@@ -102,9 +102,9 @@ public class RegistrarClientes extends javax.swing.JInternalFrame {
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JPanel pnlRegistrodeClientes;
-    private javax.swing.JTextField txtDireccion;
-    private javax.swing.JTextField txtDni;
-    private javax.swing.JTextField txtNombre;
-    private javax.swing.JTextField txtTelefono;
+    private javax.swing.JTextField txtDireccionClie;
+    private javax.swing.JTextField txtDniClie;
+    private javax.swing.JTextField txtNombreClie;
+    private javax.swing.JTextField txtTelefonoClie;
     // End of variables declaration//GEN-END:variables
 }

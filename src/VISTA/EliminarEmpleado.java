@@ -39,21 +39,26 @@ public class EliminarEmpleado extends javax.swing.JInternalFrame {
 
         jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel2.setText("DNI del empleado");
-        pnlDespedir.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 60, -1, -1));
-        pnlDespedir.add(txtDNIEmpleadoEliminar, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 80, 210, 50));
+        pnlDespedir.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 60, -1, -1));
+        pnlDespedir.add(txtDNIEmpleadoEliminar, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 90, 340, 70));
 
         btnEliminar.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         btnEliminar.setText("ELIMINAR");
-        pnlDespedir.add(btnEliminar, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 150, 170, 60));
+        btnEliminar.addActionListener(this::btnEliminarActionPerformed);
+        pnlDespedir.add(btnEliminar, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 180, 310, 70));
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabel1.setText("DESPEDIR");
+        jLabel1.setText("Eliminar Empleado");
         pnlDespedir.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 10, -1, -1));
 
-        getContentPane().add(pnlDespedir, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 270, 230));
+        getContentPane().add(pnlDespedir, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 380, 300));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void btnEliminarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEliminarActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnEliminarActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

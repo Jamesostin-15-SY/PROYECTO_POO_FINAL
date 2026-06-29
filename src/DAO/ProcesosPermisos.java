@@ -1,12 +1,10 @@
-
 package DAO;
 import VISTA.*;
 
 public class ProcesosPermisos {
 
     public static void AplicarRestricciones(MenusVeterinaria mv, int idRol) {
-        
-        
+
         mv.MenuClientes.setEnabled(false);
         mv.MenuCitas.setEnabled(false);
         mv.MenuAgendas.setEnabled(false);

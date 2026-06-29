@@ -35,7 +35,7 @@ public class AgendaDeCita extends javax.swing.JInternalFrame {
         pnlAgendaCitas.setBackground(new java.awt.Color(0, 0, 255));
         pnlAgendaCitas.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        tblCitas.setBackground(new java.awt.Color(0, 255, 255));
+        tblCitas.setBackground(new java.awt.Color(153, 153, 153));
         tblCitas.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         tblCitas.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {

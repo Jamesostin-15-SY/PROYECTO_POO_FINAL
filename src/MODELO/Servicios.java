@@ -4,8 +4,8 @@ public class Servicios {
     int id_servicio;
     String nombre_servicio;
     double precio;
-//Constructor 
-public Servicios (){}
+    //Constructor 
+    public Servicios (){}
 
     public int getId_servicio() {return id_servicio; }
     public void setId_servicio(int id_servicio) {this.id_servicio = id_servicio; }

@@ -8,12 +8,12 @@ package VISTA;
  *
  * @author user
  */
-public class RegistrarClientes extends javax.swing.JInternalFrame {
+public class frmRegistrarClientes extends javax.swing.JInternalFrame {
 
     /**
      * Creates new form AgregarClientes
      */
-    public RegistrarClientes() {
+    public frmRegistrarClientes() {
         initComponents();
     }
 

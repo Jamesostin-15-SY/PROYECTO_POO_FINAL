@@ -8,12 +8,12 @@ package VISTA;
  *
  * @author user
  */
-public class EliminarEmpleado extends javax.swing.JInternalFrame {
+public class frmEliminarEmpleado extends javax.swing.JInternalFrame {
 
     /**
      * Creates new form EliminarEmpleado
      */
-    public EliminarEmpleado() {
+    public frmEliminarEmpleado() {
         initComponents();
     }
 

@@ -8,12 +8,12 @@ package VISTA;
  *
  * @author user
  */
-public class AgendaDeCita extends javax.swing.JInternalFrame {
+public class frmAgendaDeCita extends javax.swing.JInternalFrame {
 
     /**
      * Creates new form AgendaDeCita
      */
-    public AgendaDeCita() {
+    public frmAgendaDeCita() {
         initComponents();
     }
 

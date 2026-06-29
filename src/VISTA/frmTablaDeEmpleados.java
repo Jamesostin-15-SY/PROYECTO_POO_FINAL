@@ -8,12 +8,12 @@ package VISTA;
  *
  * @author user
  */
-public class TablaDeEmpleados extends javax.swing.JInternalFrame {
+public class frmTablaDeEmpleados extends javax.swing.JInternalFrame {
 
     /**
      * Creates new form TablaDeEmpleados
      */
-    public TablaDeEmpleados() {
+    public frmTablaDeEmpleados() {
         initComponents();
     }
 

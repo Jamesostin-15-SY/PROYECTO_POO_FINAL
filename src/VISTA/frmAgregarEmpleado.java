@@ -8,12 +8,12 @@ package VISTA;
  *
  * @author user
  */
-public class AgregarEmpleado extends javax.swing.JInternalFrame {
+public class frmAgregarEmpleado extends javax.swing.JInternalFrame {
 
     /**
      * Creates new form AgregarEmpleado
      */
-    public AgregarEmpleado() {
+    public frmAgregarEmpleado() {
         initComponents();
     }
 

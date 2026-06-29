@@ -3,7 +3,7 @@ import VISTA.*;
 
 public class ProcesosPermisos {
 
-    public static void AplicarRestricciones(MenusVeterinaria mv, int idRol) {
+    public static void AplicarRestricciones(frmMenusVeterinaria mv, int idRol) {
 
         mv.MenuClientes.setEnabled(false);
         mv.MenuCitas.setEnabled(false);

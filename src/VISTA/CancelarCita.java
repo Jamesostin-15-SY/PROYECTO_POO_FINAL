@@ -29,7 +29,7 @@ public class CancelarCita extends javax.swing.JInternalFrame {
         pnlCancelarCita = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         txtIdCita = new javax.swing.JTextField();
-        cmbEstadoCita = new javax.swing.JComboBox<>();
+        cbxEstado = new javax.swing.JComboBox<>();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         btnCancelarCita = new javax.swing.JButton();
@@ -42,14 +42,14 @@ public class CancelarCita extends javax.swing.JInternalFrame {
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("CANCELAR CITA");
-        pnlCancelarCita.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 10, -1, -1));
+        pnlCancelarCita.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 10, -1, -1));
 
         txtIdCita.setBackground(new java.awt.Color(255, 204, 255));
-        pnlCancelarCita.add(txtIdCita, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 70, 250, 50));
+        pnlCancelarCita.add(txtIdCita, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 70, 340, 50));
 
-        cmbEstadoCita.setBackground(new java.awt.Color(255, 204, 255));
-        cmbEstadoCita.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
-        pnlCancelarCita.add(cmbEstadoCita, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 150, 250, 50));
+        cbxEstado.setBackground(new java.awt.Color(255, 204, 255));
+        cbxEstado.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        pnlCancelarCita.add(cbxEstado, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 150, 340, 50));
 
         jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
@@ -64,9 +64,9 @@ public class CancelarCita extends javax.swing.JInternalFrame {
         btnCancelarCita.setBackground(new java.awt.Color(255, 204, 255));
         btnCancelarCita.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         btnCancelarCita.setText("CANCELAR");
-        pnlCancelarCita.add(btnCancelarCita, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 230, 250, 50));
+        pnlCancelarCita.add(btnCancelarCita, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 230, 340, 50));
 
-        getContentPane().add(pnlCancelarCita, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 310, 310));
+        getContentPane().add(pnlCancelarCita, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 400, 330));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -74,7 +74,7 @@ public class CancelarCita extends javax.swing.JInternalFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnCancelarCita;
-    private javax.swing.JComboBox<String> cmbEstadoCita;
+    private javax.swing.JComboBox<String> cbxEstado;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;

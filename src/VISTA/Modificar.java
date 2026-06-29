@@ -40,8 +40,8 @@ public class Modificar extends javax.swing.JInternalFrame {
         pnlModificador.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabel1.setText("MODIFICADOR");
-        pnlModificador.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 10, -1, -1));
+        jLabel1.setText("Modificar Cita");
+        pnlModificador.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 10, -1, -1));
 
         jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel2.setText("ID Cita");
@@ -52,21 +52,26 @@ public class Modificar extends javax.swing.JInternalFrame {
         pnlModificador.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 140, -1, -1));
 
         txtIDCita.setBackground(new java.awt.Color(204, 204, 255));
-        pnlModificador.add(txtIDCita, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 70, 250, 60));
+        pnlModificador.add(txtIDCita, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 80, 360, 60));
 
         cbxEstado.setBackground(new java.awt.Color(204, 204, 255));
         cbxEstado.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
-        pnlModificador.add(cbxEstado, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 160, 250, 60));
+        pnlModificador.add(cbxEstado, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 160, 360, 70));
 
         btnModificar.setBackground(new java.awt.Color(204, 204, 255));
         btnModificar.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         btnModificar.setText("MODIFICAR");
-        pnlModificador.add(btnModificar, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 250, 200, 60));
+        btnModificar.addActionListener(this::btnModificarActionPerformed);
+        pnlModificador.add(btnModificar, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 250, 360, 70));
 
-        getContentPane().add(pnlModificador, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 300, 330));
+        getContentPane().add(pnlModificador, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 400, 340));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void btnModificarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnModificarActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnModificarActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

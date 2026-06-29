@@ -49,9 +49,9 @@ public class AgendadeCitasAsignadas extends javax.swing.JInternalFrame {
         ));
         jScrollPane1.setViewportView(tblAgendaDeCitas);
 
-        pnlCitasAsignadas.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 710, 490));
+        pnlCitasAsignadas.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 860, 490));
 
-        getContentPane().add(pnlCitasAsignadas, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 750, 530));
+        getContentPane().add(pnlCitasAsignadas, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 890, 530));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents

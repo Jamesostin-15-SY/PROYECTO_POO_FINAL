@@ -116,19 +116,19 @@ public class frmAgregarEmpleado extends javax.swing.JInternalFrame {
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnAgregarCredencial;
-    private javax.swing.JButton btnRegistrarEmpleado;
-    private javax.swing.JComboBox<String> cbxPuesto;
-    private javax.swing.JComboBox<String> cbxTurno;
+    public javax.swing.JButton btnAgregarCredencial;
+    public javax.swing.JButton btnRegistrarEmpleado;
+    public javax.swing.JComboBox<String> cbxPuesto;
+    public javax.swing.JComboBox<String> cbxTurno;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
-    private javax.swing.JPanel pnlContrato;
-    private javax.swing.JTextField txtApellidoEmpleado;
-    private javax.swing.JTextField txtDNIEmpleado;
-    private javax.swing.JTextField txtNombreEmpleado;
+    public javax.swing.JPanel pnlContrato;
+    public javax.swing.JTextField txtApellidoEmpleado;
+    public javax.swing.JTextField txtDNIEmpleado;
+    public javax.swing.JTextField txtNombreEmpleado;
     // End of variables declaration//GEN-END:variables
 }

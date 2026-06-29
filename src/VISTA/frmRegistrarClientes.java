@@ -94,17 +94,17 @@ public class frmRegistrarClientes extends javax.swing.JInternalFrame {
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnAgregarMascota;
-    private javax.swing.JButton btnRegistrarCliente;
+    public javax.swing.JButton btnAgregarMascota;
+    public javax.swing.JButton btnRegistrarCliente;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
-    private javax.swing.JPanel pnlRegistrodeClientes;
-    private javax.swing.JTextField txtDireccionClie;
-    private javax.swing.JTextField txtDniClie;
-    private javax.swing.JTextField txtNombreClie;
-    private javax.swing.JTextField txtTelefonoClie;
+    public javax.swing.JPanel pnlRegistrodeClientes;
+    public javax.swing.JTextField txtDireccionClie;
+    public javax.swing.JTextField txtDniClie;
+    public javax.swing.JTextField txtNombreClie;
+    public javax.swing.JTextField txtTelefonoClie;
     // End of variables declaration//GEN-END:variables
 }

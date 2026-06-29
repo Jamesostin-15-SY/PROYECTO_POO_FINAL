@@ -28,15 +28,15 @@ public class AgendadeCitasAsignadas extends javax.swing.JInternalFrame {
 
         pnlCitasAsignadas = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
-        tblAsignadas = new javax.swing.JTable();
+        tblAgendaDeCitas = new javax.swing.JTable();
 
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         pnlCitasAsignadas.setBackground(new java.awt.Color(0, 255, 0));
         pnlCitasAsignadas.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        tblAsignadas.setBackground(new java.awt.Color(102, 204, 0));
-        tblAsignadas.setModel(new javax.swing.table.DefaultTableModel(
+        tblAgendaDeCitas.setBackground(new java.awt.Color(102, 204, 0));
+        tblAgendaDeCitas.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null, null, null, null},
                 {null, null, null, null, null, null, null},
@@ -47,7 +47,7 @@ public class AgendadeCitasAsignadas extends javax.swing.JInternalFrame {
                 "", "", "", "", "", "", ""
             }
         ));
-        jScrollPane1.setViewportView(tblAsignadas);
+        jScrollPane1.setViewportView(tblAgendaDeCitas);
 
         pnlCitasAsignadas.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 710, 490));
 
@@ -60,6 +60,6 @@ public class AgendadeCitasAsignadas extends javax.swing.JInternalFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JPanel pnlCitasAsignadas;
-    private javax.swing.JTable tblAsignadas;
+    private javax.swing.JTable tblAgendaDeCitas;
     // End of variables declaration//GEN-END:variables
 }

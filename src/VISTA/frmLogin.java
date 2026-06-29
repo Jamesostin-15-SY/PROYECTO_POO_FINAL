@@ -31,14 +31,13 @@ public class frmLogin extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         txtUsuario = new javax.swing.JTextField();
-        jpfContraseña = new javax.swing.JPasswordField();
+        jpfContrasenia = new javax.swing.JPasswordField();
         btnIniciar = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(0, 0, 0));
         jLabel3.setText("INGRESA TUS CREDENCIALES");
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 40, -1, -1));
 
@@ -46,18 +45,18 @@ public class frmLogin extends javax.swing.JFrame {
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Serif", 1, 18)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(0, 0, 0));
         jLabel1.setText("USUARIO:");
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 130, -1, -1));
 
         jLabel2.setFont(new java.awt.Font("Serif", 1, 18)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(0, 0, 0));
         jLabel2.setText("CONTRASEÑA:");
         jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 180, -1, -1));
 
         txtUsuario.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jPanel1.add(txtUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 130, 180, 30));
-        jPanel1.add(jpfContraseña, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 180, 180, 30));
+
+        jpfContrasenia.addActionListener(this::jpfContraseniaActionPerformed);
+        jPanel1.add(jpfContrasenia, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 180, 180, 30));
 
         btnIniciar.setBackground(new java.awt.Color(0, 51, 51));
         btnIniciar.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
@@ -69,6 +68,10 @@ public class frmLogin extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jpfContraseniaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jpfContraseniaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jpfContraseniaActionPerformed
 
     /**
      * @param args the command line arguments
@@ -96,12 +99,12 @@ public class frmLogin extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnIniciar;
+    public javax.swing.JButton btnIniciar;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JPasswordField jpfContraseña;
-    private javax.swing.JTextField txtUsuario;
+    public javax.swing.JPasswordField jpfContrasenia;
+    public javax.swing.JTextField txtUsuario;
     // End of variables declaration//GEN-END:variables
 }

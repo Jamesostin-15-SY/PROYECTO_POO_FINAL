@@ -61,6 +61,6 @@ public class frmAgendaDeCita extends javax.swing.JInternalFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JPanel pnlAgendaCitas;
-    private javax.swing.JTable tblCitas;
+    public javax.swing.JTable tblCitas;
     // End of variables declaration//GEN-END:variables
 }

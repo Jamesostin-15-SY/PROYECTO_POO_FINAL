@@ -20,6 +20,6 @@ public class VistasFactory {
             FRC.setTitle(titulo);
             PresentarVista(FRC, contenedor);
         }
-        if (nomvista.equals("")){}
+        if (nomvista.equals("CancelarCita")){}
     }   
 }

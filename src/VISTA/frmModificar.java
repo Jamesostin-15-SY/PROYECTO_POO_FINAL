@@ -80,7 +80,7 @@ public class frmModificar extends javax.swing.JInternalFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JPanel pnlModificador;
+    public javax.swing.JPanel pnlModificador;
     public javax.swing.JTextField txtIDCita;
     // End of variables declaration//GEN-END:variables
 }

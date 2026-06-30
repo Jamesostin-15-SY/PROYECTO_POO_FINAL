@@ -20,6 +20,20 @@ public class VistasFactory {
             FRC.setTitle(titulo);
             PresentarVista(FRC, contenedor);
         }
-        if (nomvista.equals("")){}
+        if (nomvista.equals("Tabladeempleados")){
+            frmTablaDeEmpleados FTE = new frmTablaDeEmpleados();
+            FTE.setTitle(titulo);
+            PresentarVista(FTE, contenedor);
+        }
+        if (nomvista.equals("EliminarEmpleado")){
+            frmEliminarEmpleado FEE = new frmEliminarEmpleado();
+            FEE.setTitle(titulo);
+            PresentarVista(FEE, contenedor);
+        }
+        if (nomvista.equals("Modificar")){
+            frmModificar FMC = new frmModificar();
+            FMC.setTitle(titulo);
+            PresentarVista(FMC, contenedor);
+        }
     }   
 }

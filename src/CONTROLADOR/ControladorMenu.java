@@ -17,6 +17,10 @@ public class ControladorMenu implements ActionListener {
         this.vistaMenu = vistaMenu;
         this.usuarioLogueado = usuarioLogueado;
         vistaMenu.itemRegistrarCli.addActionListener(this);
+        vistaMenu.itemTabla.addActionListener(this);
+        vistaMenu.itemEliminar.addActionListener(this);
+        vistaMenu.itemEstado.addActionListener(this);
+        
     }
 
     // Muestra el panel principal configurando títulos y permisos de rol
@@ -37,8 +41,14 @@ public class ControladorMenu implements ActionListener {
         if (e.getSource() == vistaMenu.itemRegistrarCli){
             VistasFactory.CrearVista("RegistrarClie", "RegistrarClientes", vistaMenu.spnContenedor);
         }
-        if (e.getSource() == vistaMenu.itemCancelar){
-            
+        if (e.getSource() == vistaMenu.itemTabla){
+            VistasFactory.CrearVista("Tabladeempleados", "Tabla De Empleados", vistaMenu.spnContenedor);
+        }
+        if (e.getSource() == vistaMenu.itemEliminar){
+            VistasFactory.CrearVista("EliminarEmpleado", "Eliminar Empleado", vistaMenu.spnContenedor);
+        }
+        if (e.getSource() == vistaMenu.itemEstado){
+            VistasFactory.CrearVista("Modificar", "Modificador", vistaMenu.spnContenedor);
         }
     }
 }

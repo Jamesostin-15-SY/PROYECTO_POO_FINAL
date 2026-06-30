@@ -4,6 +4,7 @@ import DAO.CrudUsuarioslmp;
 import MODELO.UsuariosCredenciales;
 import VISTA.frmLogin;
 import VISTA.frmMenusVeterinaria;
+import java.awt.Frame;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.JOptionPane;

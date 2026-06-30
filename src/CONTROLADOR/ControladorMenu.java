@@ -3,7 +3,7 @@ import javax.swing.JFrame;
 import DAO.ProcesosPermisos;
 import FACTORY.VistasFactory;
 import MODELO.UsuariosCredenciales;
-import vista.*;
+import VISTA.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 public class ControladorMenu implements ActionListener {

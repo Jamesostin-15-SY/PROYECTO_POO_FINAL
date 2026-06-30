@@ -97,6 +97,7 @@ public class frmMenusVeterinaria extends javax.swing.JFrame {
         MenuEmpleados.setText("Empleados");
 
         itemAgregar.setText("Agregar empleados");
+        itemAgregar.addActionListener(this::itemAgregarActionPerformed);
         MenuEmpleados.add(itemAgregar);
 
         itemEliminar.setText("Eliminar Empleado");
@@ -122,6 +123,10 @@ public class frmMenusVeterinaria extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void itemAgregarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_itemAgregarActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_itemAgregarActionPerformed
 
     /**
      * @param args the command line arguments
@@ -154,8 +159,8 @@ public class frmMenusVeterinaria extends javax.swing.JFrame {
     public javax.swing.JMenu MenuClientes;
     public javax.swing.JMenu MenuEmpleados;
     public javax.swing.JMenu Modificar;
-    private javax.swing.JMenuItem itemAgenda;
-    private javax.swing.JMenuItem itemAgregar;
+    public javax.swing.JMenuItem itemAgenda;
+    public javax.swing.JMenuItem itemAgregar;
     public javax.swing.JMenuItem itemCancelar;
     private javax.swing.JMenuItem itemCitas;
     private javax.swing.JMenuItem itemEliminar;

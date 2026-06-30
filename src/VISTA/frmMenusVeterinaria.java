@@ -104,6 +104,7 @@ public class frmMenusVeterinaria extends javax.swing.JFrame {
         MenuEmpleados.add(itemEliminar);
 
         itemTabla.setText("Tabla De Empleados");
+        itemTabla.addActionListener(this::itemTablaActionPerformed);
         MenuEmpleados.add(itemTabla);
 
         jMenuBar1.add(MenuEmpleados);
@@ -124,9 +125,15 @@ public class frmMenusVeterinaria extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+
+    private void itemTablaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_itemTablaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_itemTablaActionPerformed
+
     private void itemAgregarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_itemAgregarActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_itemAgregarActionPerformed
+
 
     /**
      * @param args the command line arguments
@@ -163,10 +170,10 @@ public class frmMenusVeterinaria extends javax.swing.JFrame {
     public javax.swing.JMenuItem itemAgregar;
     public javax.swing.JMenuItem itemCancelar;
     private javax.swing.JMenuItem itemCitas;
-    private javax.swing.JMenuItem itemEliminar;
-    private javax.swing.JMenuItem itemEstado;
+    public javax.swing.JMenuItem itemEliminar;
+    public javax.swing.JMenuItem itemEstado;
     public javax.swing.JMenuItem itemRegistrarCli;
-    private javax.swing.JMenuItem itemTabla;
+    public javax.swing.JMenuItem itemTabla;
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu6;
     private javax.swing.JMenuBar jMenuBar1;

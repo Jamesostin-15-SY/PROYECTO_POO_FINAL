@@ -65,7 +65,7 @@ public class frmEliminarEmpleado extends javax.swing.JInternalFrame {
     public javax.swing.JButton btnEliminar;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JPanel pnlDespedir;
+    public javax.swing.JPanel pnlDespedir;
     public javax.swing.JTextField txtDNIEmpleadoEliminar;
     // End of variables declaration//GEN-END:variables
 }

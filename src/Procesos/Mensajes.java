@@ -1,4 +1,4 @@
-package PROCESOS;
+package Procesos;
 import javax.swing.JOptionPane;
 
 public class Mensajes {

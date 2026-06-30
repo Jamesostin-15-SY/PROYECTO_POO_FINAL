@@ -28,10 +28,10 @@ public class frmMenusVeterinaria extends javax.swing.JFrame {
 
         jMenu1 = new javax.swing.JMenu();
         jMenu6 = new javax.swing.JMenu();
-        spnConetenedor = new javax.swing.JDesktopPane();
+        spnContenedor = new javax.swing.JDesktopPane();
         jMenuBar1 = new javax.swing.JMenuBar();
         MenuClientes = new javax.swing.JMenu();
-        jMenuItem1 = new javax.swing.JMenuItem();
+        itemRegistrarCli = new javax.swing.JMenuItem();
         MenuCitas = new javax.swing.JMenu();
         itemCancelar = new javax.swing.JMenuItem();
         itemAgenda = new javax.swing.JMenuItem();
@@ -50,23 +50,23 @@ public class frmMenusVeterinaria extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        spnConetenedor.setBackground(new java.awt.Color(0, 102, 0));
+        spnContenedor.setBackground(new java.awt.Color(0, 102, 0));
 
-        javax.swing.GroupLayout spnConetenedorLayout = new javax.swing.GroupLayout(spnConetenedor);
-        spnConetenedor.setLayout(spnConetenedorLayout);
-        spnConetenedorLayout.setHorizontalGroup(
-            spnConetenedorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        javax.swing.GroupLayout spnContenedorLayout = new javax.swing.GroupLayout(spnContenedor);
+        spnContenedor.setLayout(spnContenedorLayout);
+        spnContenedorLayout.setHorizontalGroup(
+            spnContenedorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 1007, Short.MAX_VALUE)
         );
-        spnConetenedorLayout.setVerticalGroup(
-            spnConetenedorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        spnContenedorLayout.setVerticalGroup(
+            spnContenedorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 568, Short.MAX_VALUE)
         );
 
         MenuClientes.setText("Clientes");
 
-        jMenuItem1.setText("Registrar Clientes");
-        MenuClientes.add(jMenuItem1);
+        itemRegistrarCli.setText("Registrar Clientes");
+        MenuClientes.add(itemRegistrarCli);
 
         jMenuBar1.add(MenuClientes);
 
@@ -113,11 +113,11 @@ public class frmMenusVeterinaria extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(spnConetenedor)
+            .addComponent(spnContenedor)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(spnConetenedor)
+            .addComponent(spnContenedor)
         );
 
         pack();
@@ -156,15 +156,15 @@ public class frmMenusVeterinaria extends javax.swing.JFrame {
     public javax.swing.JMenu Modificar;
     private javax.swing.JMenuItem itemAgenda;
     private javax.swing.JMenuItem itemAgregar;
-    private javax.swing.JMenuItem itemCancelar;
+    public javax.swing.JMenuItem itemCancelar;
     private javax.swing.JMenuItem itemCitas;
     private javax.swing.JMenuItem itemEliminar;
     private javax.swing.JMenuItem itemEstado;
+    public javax.swing.JMenuItem itemRegistrarCli;
     private javax.swing.JMenuItem itemTabla;
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu6;
     private javax.swing.JMenuBar jMenuBar1;
-    private javax.swing.JMenuItem jMenuItem1;
-    private javax.swing.JDesktopPane spnConetenedor;
+    public javax.swing.JDesktopPane spnContenedor;
     // End of variables declaration//GEN-END:variables
 }

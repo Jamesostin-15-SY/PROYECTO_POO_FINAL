@@ -40,6 +40,10 @@ public class frmAgregarEmpleado extends javax.swing.JInternalFrame {
         cbxTurno = new javax.swing.JComboBox<>();
         btnRegistrarEmpleado = new javax.swing.JButton();
         btnAgregarCredencial = new javax.swing.JButton();
+        jTextField1 = new javax.swing.JTextField();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
+        jTextField2 = new javax.swing.JTextField();
 
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -49,7 +53,7 @@ public class frmAgregarEmpleado extends javax.swing.JInternalFrame {
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Puesto laboral");
-        pnlContrato.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 150, -1, -1));
+        pnlContrato.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 140, -1, -1));
 
         jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
@@ -63,47 +67,63 @@ public class frmAgregarEmpleado extends javax.swing.JInternalFrame {
 
         jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel4.setText("Nombres del empleado");
+        jLabel4.setText("DNI");
         pnlContrato.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 60, -1, -1));
 
         jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel3.setText("DNI del empleado");
-        pnlContrato.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 250, -1, -1));
+        jLabel3.setText("Segundo Nombre");
+        pnlContrato.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 220, -1, -1));
 
         jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel6.setText("Apellidos del empleado");
-        pnlContrato.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 150, -1, -1));
+        jLabel6.setText("Primer Nombre");
+        pnlContrato.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 140, -1, -1));
 
         txtNombreEmpleado.setBackground(new java.awt.Color(204, 204, 204));
-        pnlContrato.add(txtNombreEmpleado, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 90, 230, 50));
+        pnlContrato.add(txtNombreEmpleado, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 80, 230, 50));
 
         txtApellidoEmpleado.setBackground(new java.awt.Color(204, 204, 204));
         txtApellidoEmpleado.addActionListener(this::txtApellidoEmpleadoActionPerformed);
-        pnlContrato.add(txtApellidoEmpleado, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 180, 230, 50));
+        pnlContrato.add(txtApellidoEmpleado, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 160, 230, 50));
 
         txtDNIEmpleado.setBackground(new java.awt.Color(204, 204, 204));
-        pnlContrato.add(txtDNIEmpleado, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 280, 230, 50));
+        pnlContrato.add(txtDNIEmpleado, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 240, 230, 50));
 
         cbxPuesto.setBackground(new java.awt.Color(204, 204, 204));
         cbxPuesto.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
-        pnlContrato.add(cbxPuesto, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 180, 270, 50));
+        pnlContrato.add(cbxPuesto, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 160, 270, 50));
 
         cbxTurno.setBackground(new java.awt.Color(204, 204, 204));
         cbxTurno.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
-        pnlContrato.add(cbxTurno, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 90, 270, 50));
+        pnlContrato.add(cbxTurno, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 80, 270, 50));
 
         btnRegistrarEmpleado.setBackground(new java.awt.Color(204, 204, 204));
         btnRegistrarEmpleado.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         btnRegistrarEmpleado.setText("Registrar empleado");
-        pnlContrato.add(btnRegistrarEmpleado, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 370, 230, 70));
+        pnlContrato.add(btnRegistrarEmpleado, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 350, 230, 70));
 
         btnAgregarCredencial.setBackground(new java.awt.Color(204, 204, 204));
         btnAgregarCredencial.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         btnAgregarCredencial.setText("Agregar credencial");
         btnAgregarCredencial.setEnabled(false);
-        pnlContrato.add(btnAgregarCredencial, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 370, 230, 70));
+        pnlContrato.add(btnAgregarCredencial, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 250, 230, 70));
+
+        jTextField1.setBackground(new java.awt.Color(204, 204, 204));
+        pnlContrato.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 320, 230, 50));
+
+        jLabel7.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel7.setText("Apellido Paterno");
+        pnlContrato.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 300, -1, -1));
+
+        jLabel8.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel8.setText("Apellido Materno");
+        pnlContrato.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 380, -1, -1));
+
+        jTextField2.setBackground(new java.awt.Color(204, 204, 204));
+        pnlContrato.add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 400, 230, 50));
 
         getContentPane().add(pnlContrato, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 690, 520));
 
@@ -126,6 +146,10 @@ public class frmAgregarEmpleado extends javax.swing.JInternalFrame {
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JTextField jTextField1;
+    private javax.swing.JTextField jTextField2;
     public javax.swing.JPanel pnlContrato;
     public javax.swing.JTextField txtApellidoEmpleado;
     public javax.swing.JTextField txtDNIEmpleado;

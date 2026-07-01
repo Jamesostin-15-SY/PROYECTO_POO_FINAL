@@ -31,27 +31,42 @@ public class frmEliminarEmpleado extends javax.swing.JInternalFrame {
         txtDNIEmpleadoEliminar = new javax.swing.JTextField();
         btnEliminar = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        txtNombre = new javax.swing.JTextField();
 
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         pnlDespedir.setBackground(new java.awt.Color(153, 255, 204));
         pnlDespedir.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         jLabel2.setText("DNI del empleado");
-        pnlDespedir.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 60, -1, -1));
-        pnlDespedir.add(txtDNIEmpleadoEliminar, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 90, 340, 70));
+        pnlDespedir.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 190, -1, -1));
 
-        btnEliminar.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        btnEliminar.setText("ELIMINAR");
+        txtDNIEmpleadoEliminar.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        txtDNIEmpleadoEliminar.addActionListener(this::txtDNIEmpleadoEliminarActionPerformed);
+        pnlDespedir.add(txtDNIEmpleadoEliminar, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 230, 550, 80));
+
+        btnEliminar.setBackground(new java.awt.Color(0, 102, 102));
+        btnEliminar.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
+        btnEliminar.setForeground(new java.awt.Color(255, 255, 255));
+        btnEliminar.setText("DESPEDIR EMPLEADO");
         btnEliminar.addActionListener(this::btnEliminarActionPerformed);
-        pnlDespedir.add(btnEliminar, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 180, 310, 70));
+        pnlDespedir.add(btnEliminar, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 360, 550, 70));
 
-        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabel1.setText("Eliminar Empleado");
-        pnlDespedir.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 10, -1, -1));
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
+        jLabel1.setText("Despedir Empleado");
+        pnlDespedir.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 10, -1, -1));
 
-        getContentPane().add(pnlDespedir, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 380, 300));
+        jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        jLabel3.setText("Nombre del empleado");
+        pnlDespedir.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 60, -1, -1));
+
+        txtNombre.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        txtNombre.addActionListener(this::txtNombreActionPerformed);
+        pnlDespedir.add(txtNombre, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 100, 550, 80));
+
+        getContentPane().add(pnlDespedir, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 610, 470));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -60,12 +75,22 @@ public class frmEliminarEmpleado extends javax.swing.JInternalFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_btnEliminarActionPerformed
 
+    private void txtDNIEmpleadoEliminarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtDNIEmpleadoEliminarActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtDNIEmpleadoEliminarActionPerformed
+
+    private void txtNombreActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtNombreActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtNombreActionPerformed
+
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     public javax.swing.JButton btnEliminar;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JPanel pnlDespedir;
+    private javax.swing.JLabel jLabel3;
+    public javax.swing.JPanel pnlDespedir;
     public javax.swing.JTextField txtDNIEmpleadoEliminar;
+    public javax.swing.JTextField txtNombre;
     // End of variables declaration//GEN-END:variables
 }

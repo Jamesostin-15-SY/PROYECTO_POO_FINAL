@@ -26,8 +26,6 @@ public class frmMenusVeterinaria extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jMenu1 = new javax.swing.JMenu();
-        jMenu6 = new javax.swing.JMenu();
         spnContenedor = new javax.swing.JDesktopPane();
         jMenuBar1 = new javax.swing.JMenuBar();
         MenuClientes = new javax.swing.JMenu();
@@ -43,10 +41,6 @@ public class frmMenusVeterinaria extends javax.swing.JFrame {
         itemAgregar = new javax.swing.JMenuItem();
         itemEliminar = new javax.swing.JMenuItem();
         itemTabla = new javax.swing.JMenuItem();
-
-        jMenu1.setText("jMenu1");
-
-        jMenu6.setText("jMenu6");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -97,12 +91,14 @@ public class frmMenusVeterinaria extends javax.swing.JFrame {
         MenuEmpleados.setText("Empleados");
 
         itemAgregar.setText("Agregar empleados");
+        itemAgregar.addActionListener(this::itemAgregarActionPerformed);
         MenuEmpleados.add(itemAgregar);
 
         itemEliminar.setText("Eliminar Empleado");
         MenuEmpleados.add(itemEliminar);
 
         itemTabla.setText("Tabla De Empleados");
+        itemTabla.addActionListener(this::itemTablaActionPerformed);
         MenuEmpleados.add(itemTabla);
 
         jMenuBar1.add(MenuEmpleados);
@@ -122,6 +118,16 @@ public class frmMenusVeterinaria extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+
+    private void itemTablaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_itemTablaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_itemTablaActionPerformed
+
+    private void itemAgregarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_itemAgregarActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_itemAgregarActionPerformed
+
 
     /**
      * @param args the command line arguments
@@ -154,16 +160,14 @@ public class frmMenusVeterinaria extends javax.swing.JFrame {
     public javax.swing.JMenu MenuClientes;
     public javax.swing.JMenu MenuEmpleados;
     public javax.swing.JMenu Modificar;
-    private javax.swing.JMenuItem itemAgenda;
-    private javax.swing.JMenuItem itemAgregar;
+    public javax.swing.JMenuItem itemAgenda;
+    public javax.swing.JMenuItem itemAgregar;
     public javax.swing.JMenuItem itemCancelar;
-    private javax.swing.JMenuItem itemCitas;
-    private javax.swing.JMenuItem itemEliminar;
-    private javax.swing.JMenuItem itemEstado;
+    public javax.swing.JMenuItem itemCitas;
+    public javax.swing.JMenuItem itemEliminar;
+    public javax.swing.JMenuItem itemEstado;
     public javax.swing.JMenuItem itemRegistrarCli;
-    private javax.swing.JMenuItem itemTabla;
-    private javax.swing.JMenu jMenu1;
-    private javax.swing.JMenu jMenu6;
+    public javax.swing.JMenuItem itemTabla;
     private javax.swing.JMenuBar jMenuBar1;
     public javax.swing.JDesktopPane spnContenedor;
     // End of variables declaration//GEN-END:variables

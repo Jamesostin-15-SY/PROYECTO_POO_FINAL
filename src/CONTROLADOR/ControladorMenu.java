@@ -25,6 +25,8 @@ public class ControladorMenu implements ActionListener {
 
         vistaMenu.itemAgregar.addActionListener(this);
         vistaMenu.itemAgenda.addActionListener(this);
+        vistaMenu.itemCancelar.addActionListener(this);
+        vistaMenu.itemCitas.addActionListener(this);
 
     }
         
@@ -61,6 +63,12 @@ public class ControladorMenu implements ActionListener {
         }
         if (e.getSource() == vistaMenu.itemAgenda) {
             VistasFactory.CrearVista("AgendaCitas", "Agenda de Citas", vistaMenu.spnContenedor);
+        }
+        if (e.getSource() == vistaMenu.itemCancelar) {
+        VistasFactory.CrearVista("CancelarCita", "Cancelar Cita", vistaMenu.spnContenedor);
+        }
+        if (e.getSource() == vistaMenu.itemCitas) {
+        VistasFactory.CrearVista("AgendasAsignadas", "Agenda de Citas Asignadas", vistaMenu.spnContenedor);
         }
     }
 }

@@ -9,6 +9,7 @@ public class Empleados {
     private String telefono;
     private int fk_id_puesto;
     private int fk_id_turno;
+    private int fk_id_estado;
 // Constructor
     public Empleados(){}
     
@@ -28,6 +29,7 @@ public class Empleados {
     public void setFk_id_puesto(int fk_id_puesto) {this.fk_id_puesto = fk_id_puesto;}
     public int getFk_id_turno() {return fk_id_turno;}
     public void setFk_id_turno(int fk_id_turno) {this.fk_id_turno = fk_id_turno;}
+    public int getFk_id_estado(){return fk_id_estado;  }
+    public void setFk_id_estado(int fk_id_estado) {this.fk_id_estado = fk_id_estado;  }
     
- 
 }

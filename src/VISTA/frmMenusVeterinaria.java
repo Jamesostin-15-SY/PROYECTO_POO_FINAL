@@ -26,8 +26,6 @@ public class frmMenusVeterinaria extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jMenu1 = new javax.swing.JMenu();
-        jMenu6 = new javax.swing.JMenu();
         spnContenedor = new javax.swing.JDesktopPane();
         jMenuBar1 = new javax.swing.JMenuBar();
         MenuClientes = new javax.swing.JMenu();
@@ -43,10 +41,6 @@ public class frmMenusVeterinaria extends javax.swing.JFrame {
         itemAgregar = new javax.swing.JMenuItem();
         itemEliminar = new javax.swing.JMenuItem();
         itemTabla = new javax.swing.JMenuItem();
-
-        jMenu1.setText("jMenu1");
-
-        jMenu6.setText("jMenu6");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -169,13 +163,11 @@ public class frmMenusVeterinaria extends javax.swing.JFrame {
     public javax.swing.JMenuItem itemAgenda;
     public javax.swing.JMenuItem itemAgregar;
     public javax.swing.JMenuItem itemCancelar;
-    private javax.swing.JMenuItem itemCitas;
+    public javax.swing.JMenuItem itemCitas;
     public javax.swing.JMenuItem itemEliminar;
     public javax.swing.JMenuItem itemEstado;
     public javax.swing.JMenuItem itemRegistrarCli;
     public javax.swing.JMenuItem itemTabla;
-    private javax.swing.JMenu jMenu1;
-    private javax.swing.JMenu jMenu6;
     private javax.swing.JMenuBar jMenuBar1;
     public javax.swing.JDesktopPane spnContenedor;
     // End of variables declaration//GEN-END:variables

@@ -1,8 +1,8 @@
 package CONTROLADOR;
 import javax.swing.JFrame;
-import DAO.ProcesosPermisos;
-import FACTORY.VistasFactory;
-import MODELO.UsuariosCredenciales;
+import DAO.*;
+import FACTORY.*;
+import MODELO.*;
 import VISTA.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -27,6 +27,7 @@ public class ControladorMenu implements ActionListener {
         vistaMenu.itemAgenda.addActionListener(this);
 
     }
+        
 
     // Muestra el panel principal configurando títulos y permisos de rol
     public void iniciar() {
@@ -34,13 +35,13 @@ public class ControladorMenu implements ActionListener {
         vistaMenu.setLocationRelativeTo(null);
         vistaMenu.setExtendedState(JFrame.MAXIMIZED_BOTH);
         
-        // Llama a tu clase ProcesosPermisos para habilitar/deshabilitar los componentes correspondientes
-        ProcesosPermisos.AplicarRestricciones(vistaMenu, usuarioLogueado.getFk_id_role());
-        
         vistaMenu.setVisible(true);
-        
+        // Llama a tu clase ProcesosPermisos para habilitar/deshabilitar los componentes correspondientes
+        ControladorPermisos.AplicarRestricciones(vistaMenu, usuarioLogueado.getFk_id_role());
     }
-
+    
+    
+    
     @Override
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == vistaMenu.itemRegistrarCli){

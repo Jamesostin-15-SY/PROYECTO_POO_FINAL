@@ -21,6 +21,7 @@ public class VistasFactory {
             PresentarVista(FRC, contenedor);
         }
 
+
         if (nomvista.equals("Tabladeempleados")){
             frmTablaDeEmpleados FTE = new frmTablaDeEmpleados();
             FTE.setTitle(titulo);
@@ -50,6 +51,7 @@ public class VistasFactory {
            PresentarVista(FA, contenedor);
         }
     }
+
 }
     
 

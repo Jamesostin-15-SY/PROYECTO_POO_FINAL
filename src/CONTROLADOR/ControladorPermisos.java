@@ -17,7 +17,7 @@ public class ControladorPermisos {
         vista.itemAgregar.setVisible(true);
         vista.itemEliminar.setVisible(true);
         vista.itemTabla.setVisible(true);
-        
+        //HOLA
 
         switch (idRol) {
             case 1: // ADMINISTRADOR (Todo)

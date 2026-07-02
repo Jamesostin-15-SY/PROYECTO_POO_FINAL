@@ -4,7 +4,7 @@ public class Citas {
     //Atributos//
     private int id_cita;
     private int fk_id_mascota;
-    private String veterinario;
+    private String dni_empleado;
     private LocalDateTime fecha_hora;
     private int fk_id_servicio;
     private int fk_id_estado;
@@ -22,8 +22,8 @@ public class Citas {
     public void setId_cita(int id_cita) { this.id_cita = id_cita; }
     public int getFk_id_mascota() { return fk_id_mascota; }
     public void setFk_id_mascota(int fk_id_mascota) { this.fk_id_mascota = fk_id_mascota; }
-    public String getveterinario() { return veterinario; }
-    public void veterinario(String veterinario) { this.veterinario = veterinario; }
+    public String getDni_empleado() { return dni_empleado; }
+    public void setDni_empleado(String dni_empleado) { this.dni_empleado = dni_empleado; }
     public LocalDateTime getFecha_hora() { return fecha_hora; }
     public void setFecha_hora(LocalDateTime fecha_hora) { this.fecha_hora = fecha_hora; }
     public int getFk_id_servicio() { return fk_id_servicio; }

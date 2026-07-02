@@ -8,7 +8,7 @@ public class CrudUsuarioslmp extends Conexion implements CrudUsuarios {
     public UsuariosCredenciales ValidarAcceso(String user, String pass) {
         UsuariosCredenciales uc = null;
         Connection cn = getCon();
-    String sql = "SELECT * FROM usuarios_credenciales WHERE BINARY usuario = ? AND BINARY contrasena = ?";
+        String sql = "SELECT * FROM usuarios_credenciales WHERE usuario = ? AND contrasena = ?";
         
         try {
             PreparedStatement ps = cn.prepareStatement(sql);
